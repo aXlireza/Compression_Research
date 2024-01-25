@@ -1,4 +1,7 @@
 # Compression Algorithms and AI Models
+Quick Presentation Slides:
+https://docs.google.com/presentation/d/1moeKY3MZq3_LiNgB0XGWK1hVht5Uw-7c3sLpkjZcDRY/edit?usp=sharing
+
 ## Algos
 ### Sparse Coding:
 
@@ -22,7 +25,10 @@ PCA is a linear dimensionality reduction technique that finds the principal comp
 PCA is effective when the majority of the data's variance can be captured by a smaller number of principal components. It's widely used in various applications, such as image compression and feature extraction.
 
 ### LossLess
-
+#### How it works
+Grouping repeated bits in sequences. Instead of writing 1 1 1 1, we shall write 4 1.
+#### Suitability
+the way i see it, everywhere
 
 ## AIs
 ### Autoencoder:
@@ -31,6 +37,8 @@ PCA is effective when the majority of the data's variance can be captured by a s
 An autoencoder is a neural network that learns a compact representation of data by encoding it into a lower-dimensional space and then decoding it back to the original space. It consists of an encoder and a decoder.
 #### Suitability
 Autoencoders are versatile and can handle non-linear relationships in the data. They are suitable for various applications and are widely used in image, text, and feature learning tasks.
+### Bonus
+I'm thinking about merging some methods together with this one. first, run over a mask to remove some data, maybe randmly, maybe on algorithm. then run the Autoencoder and then use lossless compression. together, it should be hell of a compression.
 
 ### Convolutional Variational Autoencoder (CVAE):
 
