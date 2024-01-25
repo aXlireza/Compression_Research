@@ -21,6 +21,9 @@ PCA is a linear dimensionality reduction technique that finds the principal comp
 #### Suitability
 PCA is effective when the majority of the data's variance can be captured by a smaller number of principal components. It's widely used in various applications, such as image compression and feature extraction.
 
+### LossLess
+
+
 ## AIs
 ### Autoencoder:
 
